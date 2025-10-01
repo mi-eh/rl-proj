@@ -74,7 +74,7 @@ unique_vals['count'] = [len(sample[feature].unique()) for feature in unique_vals
 # race_hispanic: -0.177 and 5.661
 # race_other: -0.445 and 2.250
 # vent: -1.171 and 0.854
-# qsfoa_sysbp_score: -1.852 and 0.540
+# qsofa_sysbp_score: -1.852 and 0.540
 # qsofa_gcs_score: -0.579 and 1.727
 # qsofa_resprate_score: -2.560 and 0.391 
 # blood_culture_positive: -0.684 and 1.462
@@ -115,5 +115,5 @@ def ep_following_pol(policy):
 def random_policy(state):
     return np.random.randint(0, 25)
 
-ep_following_pol(random_policy)
+ep = ep_following_pol(random_policy)
 # %%

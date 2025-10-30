@@ -1,3 +1,3 @@
 Random Forest Distillation Results
-Fidelity (argmax match): 53.80%
-R² on Q-values: 0.824
+Fidelity (argmax match): 51.70%
+R² on Q-values: 0.841

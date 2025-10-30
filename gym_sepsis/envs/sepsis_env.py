@@ -85,31 +85,15 @@ class SepsisEnv(gym.Env):
         termination_state = termination_categories[np.argmax(termination)]
         outcome_state = outcome_categories[np.argmax(outcome)]
 
-        ## Debugging
-        # print("Current state shape:", np.shape(self.s))
-        # print("Next state shape:", np.shape(next_state))
-        # print("SOFA index:", self.sofa_index)
-        # print("Lactate index:", self.lactate_index)
-
-
-        sofa_t = self.s.flatten()[self.sofa_index]
-        sofa_t1 = next_state.reshape(46, 1, 1).flatten()[self.sofa_index]
-
-        lactate_t = self.s.flatten()[self.lactate_index]
-        lactate_t1 = next_state.reshape(46, 1, 1).flatten()[self.lactate_index]
-
         reward = 0
-        C0, C1, C2 = -0.025, -0.125, -2
         done = False
 
         if termination_state == 'done':
             done = True
             if outcome_state == 'death':
-                reward += -5
+                reward += -15
             else:
-                reward += 5
-        else:
-            reward += (C0 * (sofa_t1 == sofa_t and sofa_t1 > 0)) + (C1 * (sofa_t1 - sofa_t)) + (C2 * np.tanh(lactate_t1 - lactate_t))
+                reward += 15
 
         # keep next state in memory
         self.s = next_state.reshape(46, 1, 1)

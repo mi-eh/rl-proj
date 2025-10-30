@@ -1,0 +1,16 @@
+Feature,UsageCount
+ANION GAP,168
+lods,144
+LACTATE,144
+ALBUMIN,120
+elixhauser_hospital,120
+SpO2,96
+HeartRate,96
+INR,96
+DiasBP,72
+HEMOGLOBIN,72
+is_male,72
+qsofa_resprate_score,48
+CHLORIDE,48
+BANDS,24
+qsofa_sysbp_score,0

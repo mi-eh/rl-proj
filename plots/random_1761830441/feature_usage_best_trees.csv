@@ -1,0 +1,16 @@
+Feature,UsageCount
+ANION GAP,166
+weight,134
+LACTATE,118
+INR,104
+BILIRUBIN,98
+sofa,96
+CHLORIDE,72
+BUN,68
+lods,68
+qsofa_sysbp_score,66
+PT,48
+ALBUMIN,44
+elixhauser_hospital,32
+is_male,26
+race_other,0

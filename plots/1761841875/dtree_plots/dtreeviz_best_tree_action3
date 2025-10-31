@@ -1,0 +1,1082 @@
+
+digraph G {
+    splines=line;
+    nodesep=0.1;
+    ranksep=.2;
+    rankdir=TD;
+    margin=0.0;
+    graph [label="Decision Tree #23 – Action 3", labelloc=t, fontname="Arial" fontsize=14 fontcolor="#444443"];
+    node [margin="0.03" penwidth="0.5" width=.1, height=.1];
+    edge [arrowsize=.4 penwidth="0.3"]
+
+    node5 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node5_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node4 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node4_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node10 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node10_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node13 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node13_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node9 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node9_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node3 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node3_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node18 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node18_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node21 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node21_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node17 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node17_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node25 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node25_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node28 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node28_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node24 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node24_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node16 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node16_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node2 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node2_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node34 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node34_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node37 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node37_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node33 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node33_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node41 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node41_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node44 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node44_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node40 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node40_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node32 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node32_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node49 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node49_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node52 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node52_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node48 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node48_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node56 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node56_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node55 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node55_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node47 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node47_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node31 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node31_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node1 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node1_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node63 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node63_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node67 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node67_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node70 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node70_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node66 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node66_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node62 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node62_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node75 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node75_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node73 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node73_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node61 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node61_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node81 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node81_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node84 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node84_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node80 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node80_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node89 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node89_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node87 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node87_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node79 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node79_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node94 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node94_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node97 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node97_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node93 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node93_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node101 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node101_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node104 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node104_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node100 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node100_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node92 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node92_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node78 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node78_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node60 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node60_24300.svg"/></td>
+            </tr>
+            </table>>]
+	node0 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\alonz\AppData\Local\Temp/node0_24300.svg"/></td>
+            </tr>
+            </table>>]
+    node5 -> leaf6 [penwidth=0.3 color="#444443" label=<>]
+	node5 -> leaf7 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf6 -> leaf7 [style=invis]
+            }
+            
+	node4 -> node5 [penwidth=0.3 color="#444443" label=<>]
+	node4 -> leaf8 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node5 -> leaf8 [style=invis]
+            }
+            
+	node10 -> leaf11 [penwidth=0.3 color="#444443" label=<>]
+	node10 -> leaf12 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf11 -> leaf12 [style=invis]
+            }
+            
+	node13 -> leaf14 [penwidth=0.3 color="#444443" label=<>]
+	node13 -> leaf15 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf14 -> leaf15 [style=invis]
+            }
+            
+	node9 -> node10 [penwidth=0.3 color="#444443" label=<>]
+	node9 -> node13 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node10 -> node13 [style=invis]
+            }
+            
+	node3 -> node4 [penwidth=0.3 color="#444443" label=<>]
+	node3 -> node9 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node4 -> node9 [style=invis]
+            }
+            
+	node18 -> leaf19 [penwidth=0.3 color="#444443" label=<>]
+	node18 -> leaf20 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf19 -> leaf20 [style=invis]
+            }
+            
+	node21 -> leaf22 [penwidth=0.3 color="#444443" label=<>]
+	node21 -> leaf23 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf22 -> leaf23 [style=invis]
+            }
+            
+	node17 -> node18 [penwidth=0.3 color="#444443" label=<>]
+	node17 -> node21 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node18 -> node21 [style=invis]
+            }
+            
+	node25 -> leaf26 [penwidth=0.3 color="#444443" label=<>]
+	node25 -> leaf27 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf26 -> leaf27 [style=invis]
+            }
+            
+	node28 -> leaf29 [penwidth=0.3 color="#444443" label=<>]
+	node28 -> leaf30 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf29 -> leaf30 [style=invis]
+            }
+            
+	node24 -> node25 [penwidth=0.3 color="#444443" label=<>]
+	node24 -> node28 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node25 -> node28 [style=invis]
+            }
+            
+	node16 -> node17 [penwidth=0.3 color="#444443" label=<>]
+	node16 -> node24 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node17 -> node24 [style=invis]
+            }
+            
+	node2 -> node3 [penwidth=0.3 color="#444443" label=<>]
+	node2 -> node16 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node3 -> node16 [style=invis]
+            }
+            
+	node34 -> leaf35 [penwidth=0.3 color="#444443" label=<>]
+	node34 -> leaf36 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf35 -> leaf36 [style=invis]
+            }
+            
+	node37 -> leaf38 [penwidth=0.3 color="#444443" label=<>]
+	node37 -> leaf39 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf38 -> leaf39 [style=invis]
+            }
+            
+	node33 -> node34 [penwidth=0.3 color="#444443" label=<>]
+	node33 -> node37 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node34 -> node37 [style=invis]
+            }
+            
+	node41 -> leaf42 [penwidth=0.3 color="#444443" label=<>]
+	node41 -> leaf43 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf42 -> leaf43 [style=invis]
+            }
+            
+	node44 -> leaf45 [penwidth=0.3 color="#444443" label=<>]
+	node44 -> leaf46 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf45 -> leaf46 [style=invis]
+            }
+            
+	node40 -> node41 [penwidth=0.3 color="#444443" label=<>]
+	node40 -> node44 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node41 -> node44 [style=invis]
+            }
+            
+	node32 -> node33 [penwidth=0.3 color="#444443" label=<>]
+	node32 -> node40 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node33 -> node40 [style=invis]
+            }
+            
+	node49 -> leaf50 [penwidth=0.3 color="#444443" label=<>]
+	node49 -> leaf51 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf50 -> leaf51 [style=invis]
+            }
+            
+	node52 -> leaf53 [penwidth=0.3 color="#444443" label=<>]
+	node52 -> leaf54 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf53 -> leaf54 [style=invis]
+            }
+            
+	node48 -> node49 [penwidth=0.3 color="#444443" label=<>]
+	node48 -> node52 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node49 -> node52 [style=invis]
+            }
+            
+	node56 -> leaf57 [penwidth=0.3 color="#444443" label=<>]
+	node56 -> leaf58 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf57 -> leaf58 [style=invis]
+            }
+            
+	node55 -> node56 [penwidth=0.3 color="#444443" label=<>]
+	node55 -> leaf59 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node56 -> leaf59 [style=invis]
+            }
+            
+	node47 -> node48 [penwidth=0.3 color="#444443" label=<>]
+	node47 -> node55 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node48 -> node55 [style=invis]
+            }
+            
+	node31 -> node32 [penwidth=0.3 color="#444443" label=<>]
+	node31 -> node47 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node32 -> node47 [style=invis]
+            }
+            
+	node1 -> node2 [penwidth=0.3 color="#444443" label=<>]
+	node1 -> node31 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node2 -> node31 [style=invis]
+            }
+            
+	node63 -> leaf64 [penwidth=0.3 color="#444443" label=<>]
+	node63 -> leaf65 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf64 -> leaf65 [style=invis]
+            }
+            
+	node67 -> leaf68 [penwidth=0.3 color="#444443" label=<>]
+	node67 -> leaf69 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf68 -> leaf69 [style=invis]
+            }
+            
+	node70 -> leaf71 [penwidth=0.3 color="#444443" label=<>]
+	node70 -> leaf72 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf71 -> leaf72 [style=invis]
+            }
+            
+	node66 -> node67 [penwidth=0.3 color="#444443" label=<>]
+	node66 -> node70 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node67 -> node70 [style=invis]
+            }
+            
+	node62 -> node63 [penwidth=0.3 color="#444443" label=<>]
+	node62 -> node66 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node63 -> node66 [style=invis]
+            }
+            
+	node75 -> leaf76 [penwidth=0.3 color="#444443" label=<>]
+	node75 -> leaf77 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf76 -> leaf77 [style=invis]
+            }
+            
+	node73 -> leaf74 [penwidth=0.3 color="#444443" label=<>]
+	node73 -> node75 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf74 -> node75 [style=invis]
+            }
+            
+	node61 -> node62 [penwidth=0.3 color="#444443" label=<>]
+	node61 -> node73 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node62 -> node73 [style=invis]
+            }
+            
+	node81 -> leaf82 [penwidth=0.3 color="#444443" label=<>]
+	node81 -> leaf83 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf82 -> leaf83 [style=invis]
+            }
+            
+	node84 -> leaf85 [penwidth=0.3 color="#444443" label=<>]
+	node84 -> leaf86 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf85 -> leaf86 [style=invis]
+            }
+            
+	node80 -> node81 [penwidth=0.3 color="#444443" label=<>]
+	node80 -> node84 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node81 -> node84 [style=invis]
+            }
+            
+	node89 -> leaf90 [penwidth=0.3 color="#444443" label=<>]
+	node89 -> leaf91 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf90 -> leaf91 [style=invis]
+            }
+            
+	node87 -> leaf88 [penwidth=0.3 color="#444443" label=<>]
+	node87 -> node89 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf88 -> node89 [style=invis]
+            }
+            
+	node79 -> node80 [penwidth=0.3 color="#444443" label=<>]
+	node79 -> node87 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node80 -> node87 [style=invis]
+            }
+            
+	node94 -> leaf95 [penwidth=0.3 color="#444443" label=<>]
+	node94 -> leaf96 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf95 -> leaf96 [style=invis]
+            }
+            
+	node97 -> leaf98 [penwidth=0.3 color="#444443" label=<>]
+	node97 -> leaf99 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf98 -> leaf99 [style=invis]
+            }
+            
+	node93 -> node94 [penwidth=0.3 color="#444443" label=<>]
+	node93 -> node97 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node94 -> node97 [style=invis]
+            }
+            
+	node101 -> leaf102 [penwidth=0.3 color="#444443" label=<>]
+	node101 -> leaf103 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf102 -> leaf103 [style=invis]
+            }
+            
+	node104 -> leaf105 [penwidth=0.3 color="#444443" label=<>]
+	node104 -> leaf106 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                leaf105 -> leaf106 [style=invis]
+            }
+            
+	node100 -> node101 [penwidth=0.3 color="#444443" label=<>]
+	node100 -> node104 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node101 -> node104 [style=invis]
+            }
+            
+	node92 -> node93 [penwidth=0.3 color="#444443" label=<>]
+	node92 -> node100 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node93 -> node100 [style=invis]
+            }
+            
+	node78 -> node79 [penwidth=0.3 color="#444443" label=<>]
+	node78 -> node92 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node79 -> node92 [style=invis]
+            }
+            
+	node60 -> node61 [penwidth=0.3 color="#444443" label=<>]
+	node60 -> node78 [penwidth=0.3 color="#444443" label=<>]
+	
+            {
+                rank=same;
+                node61 -> node78 [style=invis]
+            }
+            
+	node0 -> node1 [penwidth=0.3 color="#444443" label=<&lt;>]
+	node0 -> node60 [penwidth=0.3 color="#444443" label=<&ge;>]
+	
+            {
+                rank=same;
+                node1 -> node60 [style=invis]
+            }
+            
+    leaf6 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf6_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf7 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf7_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf8 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf8_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf11 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf11_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf12 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf12_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf14 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf14_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf15 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf15_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf19 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf19_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf20 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf20_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf22 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf22_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf23 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf23_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf26 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf26_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf27 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf27_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf29 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf29_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf30 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf30_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf35 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf35_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf36 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf36_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf38 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf38_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf39 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf39_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf42 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf42_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf43 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf43_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf45 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf45_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf46 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf46_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf50 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf50_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf51 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf51_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf53 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf53_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf54 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf54_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf57 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf57_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf58 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf58_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf59 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf59_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf64 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf64_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf65 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf65_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf68 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf68_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf69 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf69_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf71 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf71_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf72 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf72_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf74 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf74_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf76 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf76_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf77 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf77_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf82 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf82_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf83 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf83_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf85 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf85_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf86 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf86_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf88 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf88_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf90 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf90_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf91 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf91_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf95 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf95_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf96 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf96_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf98 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf98_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf99 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf99_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf102 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf102_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf103 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf103_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf105 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf105_24300.svg"/></td>
+        </tr>
+        </table>>]
+	leaf106 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0">
+        
+        <tr>
+                <td><img src="C:\Users\alonz\AppData\Local\Temp/leaf106_24300.svg"/></td>
+        </tr>
+        </table>>]
+
+    
+    
+}
+    

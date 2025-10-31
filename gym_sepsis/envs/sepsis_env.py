@@ -28,6 +28,8 @@ features = ['ALBUMIN', 'ANION GAP', 'BANDS', 'BICARBONATE',
             'qsofa_gcs_score', 'qsofa_resprate_score', 'elixhauser_hospital',
             'blood_culture_positive', 'action', 'state_idx']
 
+
+
 class SepsisEnv(gym.Env):
     """
     Built from trained models on top of the MIMIC dataset, this
@@ -46,6 +48,10 @@ class SepsisEnv(gym.Env):
         self.starting_states = np.load(os.path.join(module_path, STARTING_STATES_VALUES))['sepsis_starting_states']
         self.seed()
         self.action_space = spaces.Discrete(24)
+
+        self.feature_names = features[0:NUM_FEATURES-2]
+        self.sofa_index = self.feature_names.index("sofa")
+        self.lactate_index = self.feature_names.index("LACTATE")
 
         # use a pixel to represent next state
         self.observation_space = spaces.Box(low=0, high=NUM_ACTIONS, shape=(NUM_FEATURES-2, 1, 1),
@@ -85,9 +91,9 @@ class SepsisEnv(gym.Env):
         if termination_state == 'done':
             done = True
             if outcome_state == 'death':
-                reward = -15
+                reward += -15
             else:
-                reward = 15
+                reward += 15
 
         # keep next state in memory
         self.s = next_state.reshape(46, 1, 1)

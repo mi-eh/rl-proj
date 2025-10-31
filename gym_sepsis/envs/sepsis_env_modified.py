@@ -109,7 +109,28 @@ class SepsisEnv(gym.Env):
             else:
                 reward += 5
         else:
-            reward += (C0 * (sofa_t1 == sofa_t and sofa_t1 > 0)) + (C1 * (sofa_t1 - sofa_t)) + (C2 * np.tanh(lactate_t1 - lactate_t))
+            # Improvement magnitudes
+            sofa_drop = sofa_t - sofa_t1
+            lactate_drop = lactate_t - lactate_t1
+    
+            # Define clinical thresholds for "meaningful improvement"
+            sofa_improved = sofa_drop >= 1
+            lactate_improved = lactate_drop >= 0.5
+    
+            sofa_worsened = sofa_drop <= -1
+            lactate_worsened = lactate_drop <= -0.5
+    
+            # Reward structure
+            if sofa_improved or lactate_improved:
+                reward += 1.0         # sparse positive event
+            elif sofa_worsened or lactate_worsened:
+                reward -= 0.5         # sparse negative event
+            else:
+                reward += 0.0         # no significant change
+    
+            # Optional small step penalty to encourage efficiency
+            reward -= 0.05
+            # reward += (C0 * (sofa_t1 == sofa_t and sofa_t1 > 0)) + (C1 * (sofa_t1 - sofa_t)) + (C2 * np.tanh(lactate_t1 - lactate_t))
 
         # keep next state in memory
         self.s = next_state.reshape(46, 1, 1)
